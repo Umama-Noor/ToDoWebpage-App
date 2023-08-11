@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do Web App</h1>
+    <div class="task-input">
+      <input type="text" id="taskTitle" placeholder="Enter task title">
+      <input type="text" id="taskDescription" placeholder="Enter task description">
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <div class="pending-tasks">
+      <h2>Pending Tasks</h2>
+      <ul id="pendingTasks">
+        <!-- Tasks will be added dynamically here -->
+      </ul>
+    </div>
+
+    <div class="completed-tasks">
+      <h2>Completed Tasks</h2>
+      <ul id="completedTasks">
+        <!-- Completed tasks will be added dynamically here -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
